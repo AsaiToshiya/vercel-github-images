@@ -8,7 +8,10 @@
     "vercel-github-involves": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf public && mkdir public",
+    "build": "octo-image involves --absolute-time AsaiToshiya && mv -f involves.png ./public",
+    "deploy": "npm run build && vercel --prod"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,9 @@
   "homepage": "https://github.com/AsaiToshiya/vercel-github-involves#readme",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "dependencies": {
+    "octo-image": "^0.1.0",
+    "vercel": "^25.1.0"
   }
 }
