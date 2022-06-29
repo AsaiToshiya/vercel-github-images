@@ -57,7 +57,7 @@ available via `npm run-script`:
   prebuild
     rm -rf public && mkdir public
   build
-    octo-image involves --absolute-time AsaiToshiya && mv -f involves.png ./public
+    octo-image involves --absolute-time --exclude-user AsaiToshiya AsaiToshiya && mv -f involves.png ./public
   deploy
     npm run build && vercel --prod
 
