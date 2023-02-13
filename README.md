@@ -1,12 +1,12 @@
-# vercel-github-involves
+# vercel-github-images
 
 ## セットアップ
 
 ### リポジトリ
 
 ```bash
-git clone https://github.com/AsaiToshiya/vercel-github-involves.git
-cd vercel-github-involves
+git clone https://github.com/AsaiToshiya/vercel-github-images.git
+cd vercel-github-images
 npm install
 ```
 
@@ -33,23 +33,23 @@ $ node ./node_modules/vercel/dist/index.js link
 > UPDATE AVAILABLE Run `npm i vercel@latest` to install Vercel CLI 25.1.0
 > Changelog: https://github.com/vercel/vercel/releases/tag/vercel@25.1.0
 Vercel CLI 24.2.5
-? Set up “~/bin/vercel-github-involves”? [Y/n] y
+? Set up “~/bin/vercel-github-images”? [Y/n] y
 ? Which scope should contain your project? asaitoshiya
-? Found project “asaitoshiya/vercel-github-involves”. Link to it? [Y/n] y
-✅  Linked to asaitoshiya/vercel-github-involves (created .vercel)
+? Found project “asaitoshiya/vercel-github-images”. Link to it? [Y/n] y
+✅  Linked to asaitoshiya/vercel-github-images (created .vercel)
 ```
 
 ### crontab
 
 ```bash
-0 * * * * cd /home/pi/bin/vercel-github-involves && npm run deploy > /dev/null 2>&1
+0 * * * * cd /home/pi/bin/vercel-github-images && npm run deploy > /dev/null 2>&1
 ```
 
 ## npm スクリプト
 
 ```
 $ npm run
-Lifecycle scripts included in vercel-github-involves@1.0.0:
+Lifecycle scripts included in vercel-github-images@1.0.0:
   test
     echo "Error: no test specified" && exit 1
 

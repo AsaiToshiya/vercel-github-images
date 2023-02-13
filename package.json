@@ -1,11 +1,11 @@
 {
-  "name": "vercel-github-involves",
+  "name": "vercel-github-images",
   "version": "1.0.0",
   "type": "module",
   "description": "",
   "exports": "./index.js",
   "bin": {
-    "vercel-github-involves": "./index.js"
+    "vercel-github-images": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AsaiToshiya/vercel-github-involves.git"
+    "url": "git+https://github.com/AsaiToshiya/vercel-github-images.git"
   },
   "keywords": [],
   "author": "Asai Toshiya <to.asai.60@gmail.com> (https://asaitoshiya.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AsaiToshiya/vercel-github-involves/issues"
+    "url": "https://github.com/AsaiToshiya/vercel-github-images/issues"
   },
-  "homepage": "https://github.com/AsaiToshiya/vercel-github-involves#readme",
+  "homepage": "https://github.com/AsaiToshiya/vercel-github-images#readme",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
