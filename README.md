@@ -42,7 +42,7 @@ Vercel CLI 24.2.5
 ### crontab
 
 ```bash
-0 * * * * cd /home/pi/bin/vercel-github-images && npm run deploy > /dev/null 2>&1
+0 * * * * export PATH=/usr/local/bin/:$PATH; cd /home/pi/bin/vercel-github-images && npm run deploy > /dev/null 2>&1
 ```
 
 ## npm スクリプト
