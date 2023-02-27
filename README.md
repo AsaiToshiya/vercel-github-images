@@ -47,7 +47,7 @@ Vercel CLI 24.2.5
 
 ## npm スクリプト
 
-```
+```bash
 $ npm run
 Lifecycle scripts included in vercel-github-images@1.0.0:
   test
