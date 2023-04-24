@@ -19,6 +19,8 @@ sudo ln -s /usr/bin/chromium-browser /opt/google/chrome/chrome
 
 ### Vercel
 
+#### ログイン
+
 ```bash
 $ node ./node_modules/vercel/dist/index.js login to.asai.60@gmail.com
 Vercel CLI 24.2.5
@@ -27,6 +29,8 @@ We sent an email to to.asai.60@gmail.com. Please follow the steps provided insid
 Congratulations! You are now logged in. In order to deploy something, run `vercel`.
 💡  Connect your Git Repositories to deploy every branch push automatically (https://vercel.link/git).
 ```
+
+#### リンク
 
 ```bash
 $ node ./node_modules/vercel/dist/index.js link
