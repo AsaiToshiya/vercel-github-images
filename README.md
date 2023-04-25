@@ -30,6 +30,14 @@ Congratulations! You are now logged in. In order to deploy something, run `verce
 💡  Connect your Git Repositories to deploy every branch push automatically (https://vercel.link/git).
 ```
 
+#### プロジェクトの作成
+
+```bash
+$ node ./node_modules/vercel/dist/index.js project add vercel-github-images
+Vercel CLI 28.16.2
+> Success! Project vercel-github-images added (asaitoshiya) [494ms]
+```
+
 #### リンク
 
 ```bash
