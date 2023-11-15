@@ -28,7 +28,7 @@
     "node": ">=14.16"
   },
   "dependencies": {
-    "octo-image": "^0.4.1",
+    "octo-image": "^0.4.2",
     "vercel": "^28.16.2"
   }
 }
